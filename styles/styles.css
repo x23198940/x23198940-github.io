@@ -1,60 +1,14 @@
 body {
-    background-color: grey;
-    font-family:Helvetica;
-    text-align: center;
-    color: black;
-  }
-h1, h2 {
-   text-shadow: #FC0 1px 0 10px;
-}
-
-.myUL {
-  display: inline-block;
+  background-color: grey;
+  font-family:Helvetica;
   text-align: center;
+  color: black;
 }
 
-.myOL {
-  display: inline-block;
-  text-align: center;
-  list-style-type: "\1F44D";
-  
-}
-
-span.skill {
-  text-decoration: underline;
-  font-weight: bold;
-  
-}
-@media(min-width:468px){
-  .rows{
-    display: flex;
-    align-items: center; 
-    justify-content: center;
-    margin: 2px;
-  }
-}
-
-.rows div{
-  border: 1px black solid;
-  padding: 8px;
-  row-gap: 10px;
-  
-}
-.row1{
-  margin-right: 7px;
-  
-}
-.row2{
-  margin-right: 7px;
-  }
-.row3{
-  margin-right: 7px;
-  
-}
-
-@media (hover: hover) {
-  h1:hover {
-    color: rgba(220, 231, 231, 0.555);
-    background: rgb(17, 6, 6);
-  }
+.accordion{
+  --bs-accordion-btn-bg: gray;
+  --accordion-bg: gray;
+  --accordion-color: gray;
+  --accordion-active-bg: blue;
+  --accordion-btn-focus-box-shadow: none;
 }
