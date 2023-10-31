@@ -1,0 +1,14 @@
+body {
+  background-color: grey;
+  font-family:Helvetica;
+  text-align: center;
+  color: black;
+}
+
+.accordion{
+  --bs-accordion-btn-bg: gray;
+  --accordion-bg: gray;
+  --accordion-color: gray;
+  --accordion-active-bg: blue;
+  --accordion-btn-focus-box-shadow: none;
+}
